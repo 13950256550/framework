@@ -1,0 +1,21 @@
+{
+  "name": "antd-demo2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^2.8.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "reqwest": "^2.0.5"
+  },
+  "devDependencies": {
+    "directory": "^0.1.0",
+    "file": "^0.2.2",
+    "less-loader": "^4.0.3",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors "
+  }
+}
